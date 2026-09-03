@@ -22,7 +22,7 @@ int main() {
         }
     }
 
-    if (count)
+    if (count>=flowers)
     cout << "true";
     else
     cout << "false";
