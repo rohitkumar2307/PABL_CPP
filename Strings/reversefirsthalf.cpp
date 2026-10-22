@@ -1,11 +1,12 @@
-//write a progrma to slice a string
-// write a program to spilt a string into words
 #include<iostream>
 #include<string>
+#include<algorithm>
 using namespace std;
 int main(){
     string s;
+    getline(cin,s);
     int n=s.length();
-    
-    
+    reverse(s.begin(),s.begin()+n/2);
+    cout<<s;
+    return 0;
 }
