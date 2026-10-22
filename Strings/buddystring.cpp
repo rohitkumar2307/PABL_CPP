@@ -24,11 +24,11 @@ int main(){
         if(s1[v[0]]==s2[v[1]] && s1[v[1]==s2[v[0]]]){
             cout<<"buddy";
         }
+    }
     // if(count==2){
     //    swap(s1[v[0]],s1[v[1]]);
     //    if(s1==s2){
     //     cout<<"buddy";
     //     }
-    }
-    
+    // }
 }
